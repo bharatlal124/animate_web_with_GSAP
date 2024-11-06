@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./indexstyle.css">
+
+        <script src="tailwind.config.js"> </script>
+        <title>Royal Diamond Park</title>
+
+        <!-- Baskervville Font Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap"
+            rel="stylesheet">
+
+        <!-- Monserrat Font Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+
+        <!-- Poppins Font Link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <!-- Tailwind CSS link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <!-- Fontawsome Link -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+
+    </head>
+    <body>
+        <!-- =================Navbar Section================== -->
+        <header class="bg-white shadow navbar">
+            <div
+                class="container mx-auto px-8 py-2 flex justify-between items-center">
+                <a href="#" class="navbar-brand">
+                    <img class="logo img-fluid" src="../images/logo.png"
+                        alt="Logo">
+                </a>
+                <div
+                    class="flex md:flex-row items-center space-x-4 contact-links md:mx-16">
+                    <a href="tel:+919867594233"
+                        class=" Montserrat"><img
+                            class="inline-block " src="../images/phone.png"
+                            alt="Phone Icon"> +91-9867594233 &nbsp; |</a>
+                    <a href="mailto:sales@anexadvisory.com"
+                        class=" Montserrat"><img
+                            class="inline-block "
+                            src="../images/mail.png" alt="Mail Icon">
+                        sales@anexadvisory.com</a>
+                </div>
+
+                <!-- <div
+                    class="flex items-center space-x-4  md:mx-16">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="tel:+919867594233">
+                                <img src="../images/phone.png"
+                                    alt="phone">+91-9867594233 &nbsp; |
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sales@anexadvisory.com">
+                                <img src="../images/mail.png"
+                                    alt="email">mailto:sales@anexadvisory.com
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </header>
+
+        <!-- ====================================Main Section========================= -->
+        <main class="relative mymain-section w-full"
+            style="background-image: url(../images/banner.png);background-repeat: no-repeat;width:100%;height:700px;background-size: cover;">
+            <!-- <img src="../images/banner.png" alt="Background Image"
+                class="w-full h-auto object-cover"> -->
+            <div class="container">
+                <div
+                    class="main-text columns-6 absolute bottom-96 md:bottom-0 inset-0 flex flex-col justify-center items-start text-white px-4 md:px-20 lg:px-40, ">
+                    <h2
+                        class="text-2xl md:text-2xl lg:text-4xl baskervville">WELCOME
+                        TO A</h2>
+                    <h1
+                        class="text-3xl md:text-3xl lg:text-5xl baskervville mt-3 md:mt-4 lg:mt-5 main-line">LIFE
+                        OF ABSOLUTE COMFORT,</h1>
+                    <h3
+                        class="text-xl md:text-2xl lg:text-3xl baskervville my-3 md:my-4 lg:my-5">RIGHT
+                        IN THE HEART OF MUMBAI.</h3>
+                    <p
+                        class="text-sm md:text-base lg:text-lg mt-2 Montserrat mb-20 md:mb-10 lg:mb-80 w-full  lg:w-[578px]">Ready
+                        to move in 2 & 3 BHK (521-723 sqft) starting @1.86 cr.
+                        <br> (all inclusive) in Santacruz Vakola.</p>
+                </div>
+                <div
+                    class="main-form columns-6 absolute right-4 md:right-24 lg:right-32 top-80 md:top-44 formcolor p-4 md:p-6 lg:p-8 shadow-lg Cform w-11/12 md:w-2/6 ">
+                    <h3
+                        class="text-2xl md:text-3xl baskervville text-white mb-3 md:mb-4">Enquire
+                        Now</h3>
+                    <form class="space-y-3 md:space-y-4 lg:space-y-5">
+                        <input type="text" placeholder="Name"
+                            class="w-full p-2 md:p-3 input Montserrat placeholder-white text-white">
+                        <input type="text" placeholder="Phone Number"
+                            class="w-full p-2 md:p-3 input Montserrat placeholder-white text-white">
+                        <select
+                            class="w-full p-2 md:p-3 input Montserrat placeholder-white text-white">
+                            <option>Property</option>
+                            <option>1 BHK</option>
+                            <option>3 BHK</option>
+                        </select>
+                        <input type="text" placeholder="Area"
+                            class="w-full p-2 md:p-3 input Montserrat placeholder-white text-white">
+                        <textarea placeholder="Tell Us What You Are Looking For"
+                            class="w-full p-2 md:p-3 input Montserrat placeholder-white text-white"></textarea>
+                        <button type="submit"
+                            class="w-40 md:w-50 p-2 md:p-3 mybutton text-white">Get
+                            a Call</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- ==============================About Us Section============================ -->
+        <section class=" py-16">
+            <img class="absolute opacity-10 w-72" src="../images/Vector.png"
+                alt="Vector Image">
+            <div
+                class="container flex flex-col lg:flex-row items-center lg:space-x-8 lg:px-24">
+                <div
+                    class=" lg:w-2/3 z-10 columns-6 aboutcontent mx-4 md:about-content">
+                    <h2 class="text-5xl baskervville heading-color mb-4">About
+                        Us</h2>
+                    <p class="mb-6 Montserrat about-content-details">Gurunam
+                        Developers, with a golden legacy of value and trust
+                        spanning 20 years, has successfully completed 25
+                        projects, serving 700 satisfied customers and developing
+                        6 lakh square feet of exceptional real estate. Our
+                        recent offering, Royal Diamond Park in Vakola,
+                        exemplifies architectural excellence. Located in one of
+                        Mumbai's most sought-after suburbs and nestled in the
+                        heart of the city, it offers a unique and prestigious
+                        address. This project seamlessly blends state-of-the-art
+                        architecture, high-end amenities, and Vaastu-compliant
+                        design, catering to the needs of young professionals,
+                        couples, and families seeking a modern lifestyle.</p>
+                </div>
+                <!-- <div
+                    class="lg:w-2/3 flex columns-6 lg:flex-col space-y-4 lg:space-y-0 lg:space-x-4 mt-8 lg:mt-0 ">
+                    <img src="../images/about.png" alt="about image">
+                </div> -->
+                <div
+                    class="lg:w-2/3 flex columns-6 lg:flex-col space-y-4 lg:space-y-0 lg:space-x-4 mt-8 lg:mt-0 about-image relative">
+                    <div
+                        class=" bg-cover mb-10 absolute  about-img-1">
+                        <img src="../images/about-1.png" alt>
+                    </div>
+                    <div class=" bg-cover relative about-img-2">
+                        <img src="../images/about-2.png" alt="About Image 2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========================Location Section===================================== -->
+        <section class=" py-20">
+            <div
+                class="container-fluid locationS flex flex-col lg:flex-row items-center lg:space-x-8 ">
+                <div class="lg:w-1/2 w-full z-10">
+                    <img src="../images/map.png" alt="Map Image"
+                        class="w-full left-0  h-auto map img-fluid">
+                </div>
+                <div
+                    class="relative locationSC lg:w-1/2 mt-8 lg:mt-0 mx-3 sm:location-content lg:px-12">
+                    <h2
+                        class="text-5xl baskervville heading-color mb-4">ADVANTAGE
+                        OF A BRILLIANT LOCATION</h2>
+                    <p class="Montserrat mb-6 location-content-details">Vakola,
+                        Santacruz East
+                        is a charming neighbourhood that exudes the
+                        city’s vibrant, dynamic and lively spirit. The
+                        location allows easy access and excellent
+                        connectivity through major roads such as the
+                        Santacruz-Chembur Link Road, Western Express
+                        Highway, and the Freeway via the BKC-Sion
+                        Connector, facilitating swift commute to key
+                        workplaces in BKC, off BKC, Santacruz East,
+                        Andheri East, Bandra, and Juhu. Essential
+                        conveniences, too, are just a whistle away and
+                        the proximity to public transportation hubs
+                        ensures convenient travel options.</p>
+
+                </div>
+                <img class="absolute opacity-10 right-0 w-96"
+                    src="../images/vector-2.png" alt>
+
+            </div>
+        </section>
+
+        <!-- =========================Gallery Section===================== -->
+        <section class=" mx-auto px-4 py-12 text-center">
+            <div class="container">
+                <h2
+                    class="text-5xl baskervville heading-color mb-8">Gallery</h2>
+                <div class="swiper-container swiper gallary-swiper relative"
+                    style="padding-bottom: 3rem;">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-1.png" alt="Slide 1"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-2.png" alt="Slide 2"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-3.png" alt="Slide 3"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-4.png" alt="Slide 4"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-5.png" alt="Slide 5"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 6 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-5.png" alt="Slide 5"
+                                class="mx-auto">
+                        </div>
+                        <!-- Slide 7 -->
+                        <div class="swiper-slide">
+                            <img src="../images/gallery-5.png" alt="Slide 5"
+                                class="mx-auto">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- <span><img class="left" src="../images/left-vector.png" alt=""></span> -->
+                    <div class="swiper-pagination pagination"></div>
+                    <!-- <span><img class="right" src="../images/right-vector.png" alt=""></span> -->
+
+                    <!-- Add Navigation -->
+                    <div>
+                        <img class="swiper-button-next w-full next-arrow "
+                            src="../images/Arrow.png" alt>
+                    </div>
+                    <div>
+                        <img class="swiper-button-prev w-full prev-arrow"
+                            src="../images/Arrow Left.png" alt>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================Amenities Section======================= -->
+
+        <!-- Amenities Section -->
+        <section class=" mx-auto px-4 py-16">
+            <div class="container">
+                <h2
+                    class="text-5xl baskervville heading-color mb-8 text-center">Amenities</h2>
+                <div
+                    class="grid grid-cols-2 justify-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/gym.png" alt="Gym"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Gym</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/badminton.png"
+                            alt="Badminton/Multi Court" class="icon mx-auto">
+                        <p class="mt-2 poppins">Badminton/Multi Court</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/lift.png" alt="Lift"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Lift</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/terrace.png" alt="Terrace Cabana"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Terrace Cabana</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/airport.png"
+                            alt="Airport Viewing Amenities"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Airport Viewing Amenities</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/security.png" alt="Security"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Security</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/playground.png"
+                            alt="Children's Play Area" class="icon mx-auto">
+                        <p class="mt-2 poppins">Children's Play Area</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/terrace-2.png" alt="Terrace Garden"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Terrace Garden</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/cctv.png" alt="24/7 Security"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">24/7 Security</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/security-camera.png"
+                            alt="CCTV Surveillance" class="icon mx-auto">
+                        <p class="mt-2 poppins">CCTV Surveillance</p>
+                    </div>
+
+                    <!--  -->
+                    <!--  -->
+
+                </div>
+
+                <div
+                    class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8 justify-center lg:mx-36">
+
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/intercom.png" alt="Intercom"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Intercom</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/elevator.png"
+                            alt="High Speed Elevator"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">High Speed Elevator</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/measure.png" alt="Measures"
+                            class="icon mx-auto">
+                        <p class="mt-2 poppins">Measures</p>
+                    </div>
+                    <div class=" border-color p-7 text-center">
+                        <img src="../images/emergency-exit.png"
+                            alt="Emergency Exits" class="icon mx-auto">
+                        <p class="mt-2 poppins">Emergency Exits</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+        <!-- ====================Neighbourhood Section==================== -->
+        <section class="container mx-auto px-4 py-16 flex flex-wrap">
+            <div class="w-full h-full lg:w-2/4 grid grid-cols-2 gap-4">
+                <img src="../images/grid-1.png" alt="Image 1"
+                    class="w-full h-full object-cover">
+                <img src="../images/grid-2.png" alt="Image 2"
+                    class="w-full h-full object-cover">
+                <img src="../images/grid-3.png" alt="Image 3"
+                    class="w-full h-full object-cover">
+                <img src="../images/grid-4.png" alt="Image 4"
+                    class="w-full h-full object-cover">
+            </div>
+            <div class="w-full lg:w-1/4 lg:pl-12 mt-8 lg:mt-0 poppins">
+                <h2
+                    class="md:text-5xl main-title baskervville heading-color mb-6 w-96 sm:text-3xl">IN
+                    THE NEIGHBOURHOOD
+                </h2>
+                <!--  -->
+                <div class="mb-6">
+                    <div class="list-text">
+                        <h5>GYM & YOGA:</h5>
+
+                        <ul>
+                            <li>Keluskar Fitness</li>
+                            <li>1 min</li>
+                        </ul>
+                        <ul>
+                            <li>Balmithra Gym</li>
+                            <li>3 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Samarth Shree Gymnasium</li>
+                            <li>7 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Fit and Fight Gym</li>
+                            <li>7 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Raymond’s Gym</li>
+                            <li>7 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Fit Theory</li>
+                            <li>8 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Workout World</li>
+                            <li>9 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Fitness Kingdom Gym 2.0</li>
+                            <li>10 mins</li>
+                        </ul>
+                        <ul>
+                            <li>The Red Gym</li>
+                            <li>10 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Tarun Fitness Gym</li>
+                            <li>10 mins</li>
+                        </ul>
+                        <ul>
+                            <li>The Solitaire Fitness International</li>
+                            <li>11 mins</li>
+                        </ul>
+                        <ul>
+                            <li>The Captain’s Gym </li>
+                            <li>13 mins</li>
+                        </ul>
+                        <ul>
+                            <li>3 Fitness Gym</li>
+                            <li>14 mins</li>
+                        </ul>
+                        <ul>
+                            <li>The Yoga Institute</li>
+                            <li>15 mins</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="list-text">
+                        <h5>MOVIE:</h5>
+
+                        <ul>
+                            <li>Orion Mukta A2</li>
+                            <li>14 mins</li>
+                        </ul>
+                        <ul>
+                            <li>NMAC</li>
+                            <li>17 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Zero Gravity</li>
+                            <li>20 mins</li>
+                        </ul>
+                        <ul>
+                            <li>PVR Cinemas</li>
+                            <li>22 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Cameo Films</li>
+                            <li>30 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Prithvi Theatre</li>
+                            <li>36 mins</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w-full lg:w-1/4 lg:pl-12 mt-20 lg:mt-28 poppins">
+
+                <div class="mb-6">
+                    <div class="list-text">
+                        <h5>HOTELS/RESTAURANTS:</h5>
+                        <ul>
+                            <li>Vienna Bakery</li>
+                            <li>3 mins</li>
+                        </ul>
+                        <ul>
+                            <li>China House</li>
+                            <li>4 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Dumpling Khang</li>
+                            <li>5 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Celini</li>
+                            <li>5 mins</li>
+                        </ul>
+                        <ul>
+                            <li>King Chilli</li>
+                            <li>8 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Theeram</li>
+                            <li>8 mins</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="list-text">
+                        <h5>RETAIL STORES:</h5>
+
+                        <ul>
+                            <li>Bhatia Medical Supermarket</li>
+                            <li>4 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Sai Medical Chemist </li>
+                            <li>5 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Parlekar Masala</li>
+                            <li>20 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Reliance SMART</li>
+                            <li>25 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Chheda Foods</li>
+                            <li>25 mins</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="list-text">
+                        <h5>BUSINESS HUBS:</h5>
+                        <ul>
+                            <li>Lupin</li>
+                            <li>6 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Kalpataru 3 Towers</li>
+                            <li>6 mins</li>
+                        </ul>
+                        <ul>
+                            <li>UPL House</li>
+                            <li>8 mins</li>
+                        </ul>
+                        <ul>
+                            <li>JP Morgan</li>
+                            <li>9 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Edelweiss Financial</li>
+                            <li>9 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Raheja Centre</li>
+                            <li>12 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Asian Paints</li>
+                            <li>23 mins</li>
+                        </ul>
+                        <ul>
+                            <li>Windsor Commercial</li>
+                            <li>35 mins</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <img class="absolute opacity-10 right-0"
+                src="../images/vector-2.png" alt>
+
+        </section>
+
+        <!-- ==================Footer Section====================== -->
+
+        <footer class="flex justify-between items-center footercolor">
+            <div class="footer-img">
+                <img class=" left-0 mt-5 "
+                    src="../images/Vector-bottom.png" alt="vector">
+            </div>
+
+            <div class="text-center footer-links">
+                <div class="flex justify-center space-x-6 mb-2 social-links">
+                    <a href="#" class="text-white instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white facebook"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-white twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white youtube"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+                <div class="text-white Montserrat ">
+                    <p>Copyright – RoyalDiamondPark. All rights reserved</p>
+                    <p>Maha Rera No. P51800033968 | <a href="#">Privacy
+                            Policy</a></p>
+                </div>
+            </div>
+
+            <div class="h-12 w-12"></div>
+        </footer>
+
+        <!-- ===================Swiper Slider========================== -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+        var swiper = new Swiper('.gallary-swiper', {
+            slidesPerView: 5,
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                369:{
+                    slidesPerView:1,
+                },
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween:10,
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 10,
+                },
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+            },
+        });
+    </script>
+
+        <script>
+    // ===================GSAP Animations========================
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Navbar section animation
+    gsap.from(".navbar-brand", {
+        duration:1,
+        x:-100,
+        opacity:0,
+        ease:"power1.out",
+    })
+
+    gsap.from(".contact-links a", {
+        duration:1,
+        x:100,
+        opacity:0,
+        ease:"power1.out"
+    })
+
+    // Main section text animation
+    gsap.from(".main-text h2, .main-text h1, .main-text h3, .main-text p", {
+        duration: 1,
+        y: 100,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power4.inout",
+    });
+
+    // Form animation
+    gsap.from(".main-form", {
+        duration: 1,
+        x: 200,
+        opacity: 0,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".main-form",
+            start: "top 80%",
+        }
+    });
+
+    gsap.from(".main-form input, .main-form select, textarea, button", {
+        duration: 1,
+        y:200,
+        opacity: 0,
+        ease:"power3.out",
+        scrollTrigger:{
+            trigger: ".main-form",
+            start: "top 80%",
+        }
+    });
+
+    // About us section animation
+    gsap.from(".aboutcontent", {
+        duration: 1,
+        x: -200,
+        opacity: 0,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".aboutcontent",
+            start: "top 80%",
+        }
+    });
+
+    gsap.from(".about-image img", {
+        duration: 1,
+        scale: 0.8,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".about-image",
+            start: "top 80%",
+            scrub:true
+        }
+    });
+
+    // Location section animation
+    gsap.from(".locationS img", {
+        duration: 1,
+        scale: 0.8,
+        opacity: 0,
+        // ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".locationS",
+            start: "top 80%",
+        }
+    });
+
+    gsap.from(".locationS .locationSC", {
+        duration:1,
+        x:200,
+        opacity:0,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".locationS",
+            start: "top 80%",
+        }
+    });
+
+    // Gallery section animation
+    gsap.from(".swiper-slide img", {
+        duration: 1,
+        scale: 0.8,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".swiper-container",
+            start: "top 80%",
+        }
+    });
+
+    // Amenities section animation
+    gsap.from(".grid .border-color", {
+        duration: 1,
+        y: 50,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".grid",
+            start: "top 80%",
+            // scrub:true
+        }
+    });
+
+    // Neighbourhood section animation
+    gsap.from(".grid img", {
+        duration: 1,
+        y: 100,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".grid",
+            start: "top 80%",
+        }
+    });
+
+    gsap.from(".list-text", {
+        duration: 1,
+        x: -200,
+        opacity: 0,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: ".list-text",
+            start: "top 80%",
+        }
+    });
+
+
+</script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js"
+            integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- <script src="script.js"></script> -->
+
+    </body>
+</html>

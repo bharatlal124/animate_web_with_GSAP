@@ -423,3 +423,45 @@ section {
 .youtube {
   background-color: #ff0000;
 }
+
+/* ============================================ */
+@media (max-width: 400px) {
+  .navbar .contact-links {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .navbar a {
+    font-size: 8px !important;
+  }
+  .baskervville {
+    font-size: 14px;
+  }
+
+  .baskervville {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  .main-title {
+    font-size: 14px;
+  }
+  .main-form {
+    top: 22rem !important;
+  }
+  .aboutcontent .about-content-details,
+  .location-content-details,
+  .poppins {
+    font-size: 12px;
+  }
+  .navbar {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  footer .Montserrat {
+    font-size: 12px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
